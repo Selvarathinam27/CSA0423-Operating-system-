@@ -3,14 +3,13 @@
   
 int main()  
 {  
-    // initlialize the variable name  
+   
     int i, NOP, sum=0,count=0, y, quant, wt=0, tat=0, at[10], bt[10], temp[10];  
     float avg_wt, avg_tat;  
     printf(" Total number of process in the system: ");  
     scanf("%d", &NOP);  
     y = NOP; // Assign the number of process to variable y  
   
-// Use for loop to enter the details of the process like Arrival time and the Burst Time  
 for(i=0; i<NOP; i++)  
 {  
 printf("\n Enter the Arrival and Burst time of the Process[%d]\n", i+1);  
