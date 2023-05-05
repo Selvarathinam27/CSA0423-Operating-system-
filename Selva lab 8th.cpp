@@ -8,16 +8,16 @@ int main()
     float avg_wt, avg_tat;  
     printf(" Total number of process in the system: ");  
     scanf("%d", &NOP);  
-    y = NOP; // Assign the number of process to variable y  
+    y = NOP; 
   
 for(i=0; i<NOP; i++)  
 {  
 printf("\n Enter the Arrival and Burst time of the Process[%d]\n", i+1);  
-printf(" Arrival time is: \t");  // Accept arrival time  
+printf(" Arrival time is: \t");  
 scanf("%d", &at[i]);  
-printf(" \nBurst time is: \t"); // Accept the Burst time  
+printf(" \nBurst time is: \t"); 
 scanf("%d", &bt[i]);  
-temp[i] = bt[i]; // store the burst time in temp array  
+temp[i] = bt[i];
 }  
 
 printf("Enter the Time Quantum for the process: \t");  
